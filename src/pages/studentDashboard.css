@@ -1,0 +1,28 @@
+.studentpage{
+    display: flex;
+    flex-direction: row;
+}
+.studentinfo, .studentScore{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px;
+}
+h5{
+    border-bottom: 1px solid black;
+}
+.LatestTestDate{
+    border-bottom: none;
+    margin-bottom: 0px;
+}
+.studentScore{
+    height: 280px;
+}
+.studentScore h5{
+    margin: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.English{
+    border-bottom: none;
+}
